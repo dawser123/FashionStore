@@ -32,7 +32,8 @@ const Newsletter = () => {
         <input
           aria-label="Email"
           autoComplete="off"
-          className="w-full rounded-lg px-3 py-1 placeholder:text-white xsm:w-[80%] m:max-w-xl"
+          placeholder="Enter your e-mail"
+          className="w-full rounded-lg px-3 py-1  xsm:w-[80%] m:max-w-xl"
           type="email"
           id="email"
           {...register("email", {
