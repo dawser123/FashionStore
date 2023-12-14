@@ -10,8 +10,10 @@ const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
   const cartContext = useContext(CartContext);
   const navigate = useNavigate();
+
   const clickBasketHandler = () => {
     navigate("/cart");
+
   };
   const clickHomeHandler = () => {
     navigate("/");
