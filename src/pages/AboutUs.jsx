@@ -29,9 +29,9 @@ const NavbarShop = () => {
           </p>
         </div>
         <div className=" my-20 flex flex-col text-white ">
-          <h2 className="text-2xl font-bold text-secondary-color">Adress:</h2>
+          <h2 className="text-2xl font-bold text-secondary-color">Address:</h2>
           <div className="mt-3">
-            <p>Zalando</p>
+            <p>FashionShop</p>
             <p>Karl Johans gt. 1, 0154</p>
             <p>Oslo</p>
             <p>Norway</p>
